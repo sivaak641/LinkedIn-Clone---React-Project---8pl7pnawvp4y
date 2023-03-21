@@ -1,0 +1,14 @@
+[
+    {
+        "postedBy": "Manoj",
+        "postText":
+            "OpenAi rule the World.",
+        "likes": 2,
+        "comments":[
+            {
+                "by":"Nithin",
+                "comment":"Great"
+            }
+        ]
+    }
+]

@@ -1,0 +1,46 @@
+#rightsidebar{
+    display:flex;
+    width:20%;
+    margin-top: 20px;
+    height : 23rem;
+    flex-direction: column;
+    background-color: inherit;
+}
+.followbtn{
+    height: 30px;
+    width: 60px;
+    border: 1px solid gray ;
+    border-radius: 10px;
+}
+#followDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    margin-bottom: 20px;
+}
+#AdDiv{
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    margin-bottom: 20px;
+}
+#AdDiv img{
+    height : 200px; 
+}
+#followheader{
+    margin: 10px;
+}
+#followDiv span{
+    font-size: 16px;
+    
+}
+.followDiv1{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 10px;
+}

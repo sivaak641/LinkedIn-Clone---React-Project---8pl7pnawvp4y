@@ -1,0 +1,54 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 15%;
+    height: 25px;
+    align-items: center;
+    background-color: white;
+}
+#left{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    margin-right: 15%;
+}
+#left img{
+    height : 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+#searchDiv{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 3px 10px;
+    background-color: rgb(233, 226, 226);
+}
+#searchDiv input{
+    height: 28px;
+    background-color: transparent;
+    border-color: transparent;
+    outline: 0;
+}
+#right{
+    display: flex;
+    flex-direction: row;
+}
+span{
+    font-size: 10px;
+}
+.iconBtn{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: transparent;
+    border-color: transparent;
+    width: 70px;
+    margin: 0px 5px;
+}
+.iconBtn:hover{
+    border-bottom-color: black;
+}
